@@ -1,3 +1,33 @@
 body {
-background-color:aqua;
+background-color:lightgreen;
+}
+.Navlink {
+    background-color: white;
+    float: left;
+    width: 20%;
+    margin-top: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 7px;
+    border-left-width: 3.5px;
+    border-right-width: 3.5px;
+    border-color: lightskyblue;
+    font-family:'Palatino Linotype';
+}
+.Nav {
+width:120%;
+}
+.Navlink a {
+text-decoration:none;
+color:red;
+margin:2px;
+}
+.Navlink:hover{
+background-color:lightslategray;
+}
+h1 {
+    text-align:center;
+font-size:50px;
+color:white;
+font-family:Cambria;
 }
